@@ -1,0 +1,36 @@
+.__body{
+    margin-bottom: -12px;
+    /* margin-left: 1px; */
+    /* margin-right: 1px; */
+}
+.__rating{
+    z-index: 3;
+    position: relative;
+    top: -30px;
+    font-size: 0.4em;
+    margin-top: -10px;
+}
+.__image{
+    position: relative;
+    top: -70px;
+    width: calc(14.2857/2)vw;
+    height: 40px;
+    z-index: 2;
+}
+.__date{
+    color: black;
+    position: relative;
+    top: -20px;
+    z-index: 30;
+    font-size: 0.7em;
+    margin-top: -105px;
+}
+
+.__typeofday{
+    font-size: 0.6em;
+    z-index: 4;
+    position: relative;
+    top : 40px;
+    margin-top: -100px;
+    color: black;
+}

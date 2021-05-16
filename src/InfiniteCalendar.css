@@ -1,0 +1,81 @@
+ul {list-style-type: none;}
+body {
+    font-family: Verdana, sans-serif;
+    margin-left: 10px;
+    position: relative !important;
+    margin-top: -300px !important;
+    z-index: -1 ;
+}
+/* div.infinite__calendar.Cal__Container__root{
+    display: grid;
+    grid-template-rows: 0.04fr 2fr 20fr;
+} */
+div.Cal__Container__wrapper{
+    display:grid;
+    grid-template-rows: 1fr 12fr;
+    background-color:pink;
+    /* padding: 3px; */
+}
+/* Weekdays (Mon-Sun) */
+.Cal__Weekdays__root {
+    margin: 0;
+    padding: 10px 0;
+    background-color:rgb(221, 221, 221);
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.Cal__Weekdays__day{
+    display: inline-block;
+    /* grid-column: auto; */
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+    padding: 3px;
+}
+/* ul.Cal__Month__row.Cal__month__partial{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+} */
+
+.Cal__Month__row.Cal__Month__partial{
+    flex-basis: 14.2857%;
+    max-width: 14.2857%;
+    color: rgb(38, 138, 88);
+    overflow: hidden;
+    /* grid-template-rows: 1fr;s */
+}
+
+/* Days (1-31) */
+/* Cal__Day__root  */
+.Cal__Day__month{
+    text-align: center;
+}
+.Cal__Day__disabled{
+    display: inline-block;
+    width: 18.6%;
+    color: rgba(102, 102, 102, 0.986);
+    text-align:justify;
+    /* display: flex; */
+  }
+  .Cal__Day__enabled{
+    display: inline-block;
+    width: 18.6%;
+    color: #666;
+    text-align: center;
+      /* display: flex; */
+}
+/* .days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+} */

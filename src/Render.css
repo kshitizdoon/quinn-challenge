@@ -1,0 +1,154 @@
+.display{
+    background-color: rgb(221, 243, 241);
+    border-radius: 20px;
+}
+.button{
+    position: relative;
+    left: 45%;
+    right: 45%;
+    background-color: greenyellow;
+    /* position:absolute;
+    border-radius: 50% ;
+    padding: 5px;
+    background-color: rgb(182, 245, 216);
+    opacity: 0.5;
+    top: 0px;
+    right: 0px; */
+}
+.Image{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    /* max-width: 60vh; */
+    /* max-width: 60vh; */
+    /* height: 50% !important; */
+    /* margin-left: auto; */
+    /* grid-column: 1/-1; */
+}
+.typeofday{
+    grid-column: 1/2;
+    height: 10px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* flex-direction: row; */
+    text-align: center;
+    margin: 10px;
+}
+.day{
+    margin: 5px;
+    grid-column: 1fr;
+}
+.Ratings{
+    height: 10px;
+    text-align: end;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.Rating{
+    
+    display: inline;
+}
+.date{
+    margin-top: 20px;
+    grid-column: 1/-1;
+    text-align: center;
+    color:green;
+}
+.text{
+    grid-column: 1/-1;
+    padding: 10px;
+    color: rgb(86, 7, 94);
+}
+.pr{
+    display:inline-block;
+    border-radius: 50% !important;
+    padding: 5px;
+    background-color: rgb(182, 230, 245) ;
+}
+.hc{
+    display:inline-block;
+    border-radius: 50% ;
+    padding: 5px;
+    background-color: rgb(245, 182, 182);
+}
+.dc, .cu{
+    border-radius: 50% ;
+    padding: 5px;
+    background-color: rgb(182, 245, 216);
+}
+.c{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(245, 182, 182);
+}
+@media only screen and (max-width: 600px) {
+    .button{
+        text-align: center;
+        font-size: 0.5em;
+        background-color: greenyellow;
+    }
+    .Image{
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .typeofday{
+        grid-column: 1/2;
+        height: 10px;
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        /* flex-direction: row; */
+        text-align: center;
+        margin: 5px;
+    }
+    .day{
+        margin: 2px;
+        grid-column: 1fr;
+        font-size: 0.3em;
+    }
+    .Ratings{
+        height: 10px;
+        margin-bottom: 10px;
+        margin-top: -11px;
+    }
+    .Rating{
+        font-size: 1em;
+        display: inline;
+    }
+    .date{
+        margin-top: 10px;
+        grid-column: 1/-1;
+        text-align: center;
+        color:green;
+    }
+    .text{
+        grid-column: 1/-1;
+        padding: 5px;
+        font-size: 1em;
+        color: rgb(86, 7, 94);
+    }
+    .pr{
+        display:inline-block;
+        border-radius: 50% !important;
+        padding: 5px;
+        background-color: rgb(182, 230, 245) ;
+    }
+    .hc{
+        display:inline-block;
+        border-radius: 50% ;
+        padding: 5px;
+        background-color: rgb(245, 182, 182);
+    }
+    .dc, .cu{
+        border-radius: 50% ;
+        padding: 5px;
+        background-color: rgb(182, 245, 216);
+    }
+    .c{
+        border-radius: 50%;
+        padding: 5px;
+        background-color: rgb(245, 182, 182);
+    }
+}

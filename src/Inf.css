@@ -1,0 +1,73 @@
+ul {list-style-type: none;}
+body {
+    font-family: Verdana, sans-serif;
+}
+.calendar{
+    z-index: -1;
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 100vw !important;
+    height: 100vh !important;
+    opacity: 0.3;
+    /* margin-bottom: -200px; */
+}
+.org__calendar{
+    z-index: 1;
+    position: static;
+    top: 0px;
+    font-size: 1em;
+    
+    left: 0px;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+.popup{
+    z-index: 1;
+    position: absolute;
+    /* height: 60vh;  */
+    /* max-width: 600px; */
+    width: 20vw;
+    height: 90vw;
+    /* max-height: 50px; */
+    /* max-height: 60vh; */
+    top: 5vh;
+    left: 40vw;
+    /* left: 700px; */
+}
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 0.6em;
+    }
+    .popup{
+        z-index: 1;
+        position: absolute;
+        /* height: 60vh;  */
+        /* max-width: 600px; */
+        width: 80vw;
+        /* height: 90vw; */
+        /* max-height: 50px; */
+        /* max-height: 60vh; */
+        top: 5vh;
+        left: 10vw;
+        /* left: 700px; */
+    }
+    .calendar{
+        z-index: -1;
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: 100vw !important;
+        height: 100vh !important;
+        opacity: 0.3;
+        /* margin-bottom: -200px; */
+    }
+    .org__calendar{
+        z-index: 1;
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+}
