@@ -1,1 +1,1 @@
-Hairy Diary Calendar Using React.js
+Hairy Diary Calendar using React.js
